@@ -19,7 +19,7 @@ class ServerTest {
     @Mock
     private Map<String, WebSocket> connections;
 
-    @Mock
+    @InjectMocks
     private WebSocket mockConnection;
 
     @InjectMocks
